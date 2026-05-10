@@ -13,9 +13,9 @@ My **uBlock Origin** filters for readability, privacy, and system-syncing.
 
 ## Documentation
 
-* [Static Filter Syntax](https://www.google.com/search?q=https://github.com/gorhill/uBlock/wiki/Static-filter-syntax) — Core rules and `$options`.
-* [Cosmetic Filters](https://www.google.com/search?q=https://github.com/gorhill/uBlock/wiki/Static-filter-syntax%23cosmetic-filters) — Element hiding and `:style()` injection.
-* [Resources Library](https://github.com/gorhill/uBlock/wiki/Resources-Library) — Advanced scriptlets and procedural filters.
+* [Static Filter Syntax](https://www.google.com/search?q=https://github.com/gorhill/uBlock/wiki/Static-filter-syntax)
+* [Cosmetic Filters](https://www.google.com/search?q=https://github.com/gorhill/uBlock/wiki/Static-filter-syntax%23cosmetic-filters)
+* [Resources Library](https://github.com/gorhill/uBlock/wiki/Resources-Library)
 
 ## License
 

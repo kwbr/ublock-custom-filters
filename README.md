@@ -19,4 +19,4 @@ My **uBlock Origin** filters for readability, privacy, and system-syncing.
 
 ## License
 
-Unlicensed
+[Unlicense](https://unlicense.org/) - public domain.

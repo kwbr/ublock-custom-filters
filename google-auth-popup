@@ -1,0 +1,2 @@
+! Blocks Google Sign-In scripts and XHR requests on third-party sites
+||accounts.google.com/gsi/*$xhr,script,3p

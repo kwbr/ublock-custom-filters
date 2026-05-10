@@ -1,0 +1,62 @@
+! ############################################################
+! # Hacker News changes
+! ############################################################
+
+! FUNCTIONAL LAYOUT (Always On) ---
+
+! Spacing: Adds vertical breathing room between news items
+news.ycombinator.com##.spacer:style(height: 18px !important;)
+
+! Readability: Limits comment width to 120 characters
+news.ycombinator.com##.commtext:style(max-width: 120ch !important;)
+
+! Readability: Increases line spacing for dense comment blocks
+news.ycombinator.com##.commtext:style(line-height: 1.5 !important;)
+
+! Container: Adds padding to the main content area
+news.ycombinator.com###hnmain:style(padding: 10px !important;)
+
+! Container: Rounds the corners of the main board
+news.ycombinator.com###hnmain:style(border-radius: 8px !important;)
+
+! Container: Ensures the site doesn't stretch too wide on 4K monitors
+news.ycombinator.com###hnmain:style(min-width: 800px !important; max-width: 1400px !important;)
+
+! Form: Expands the comment box to a readable width
+news.ycombinator.com##textarea:style(width: 100% !important; max-width: 700px !important;)
+
+! Form: Adds padding inside the typing area
+news.ycombinator.com##textarea:style(padding: 10px !important; margin-top: 8px !important;)
+
+
+! DYNAMIC DARK MODE (OS Linked) ---
+
+! System: Forces native dark scrollbars and input defaults
+news.ycombinator.com##html:matches-media((prefers-color-scheme: dark)):style(color-scheme: dark !important;)
+
+! Colors: Sets the primary page background
+news.ycombinator.com##html:matches-media((prefers-color-scheme: dark)):style(background-color: #121212 !important;)
+
+! Colors: Sets the inner container background
+news.ycombinator.com###hnmain:matches-media((prefers-color-scheme: dark)):style(background-color: #1a1a1b !important;)
+
+! Text: Soft grey for body text and comments
+news.ycombinator.com##body, td, .commtext:matches-media((prefers-color-scheme: dark)):style(color: #cccccc !important;)
+
+! Links: Off-white for story titles
+news.ycombinator.com##.title a:matches-media((prefers-color-scheme: dark)):style(color: #e0e0e0 !important;)
+
+! Links: Off-white for links inside comments
+news.ycombinator.com##.comment a:matches-media((prefers-color-scheme: dark)):style(color: #e0e0e0 !important;)
+
+! Metadata: Dims points, timestamps, and usernames
+news.ycombinator.com##.subtext, .subtext a, .sitestr, .comhead:matches-media((prefers-color-scheme: dark)):style(color: #828282 !important;)
+
+! Nesting: Adds a dotted vertical guide for comment threads
+news.ycombinator.com##.ind:matches-media((prefers-color-scheme: dark)):style(border-right: 1px dotted #4d5057 !important;)
+
+
+! THE FONT BUMP ---
+
+! Scale: Bumps all primary text to 16px
+news.ycombinator.com##body, td, .title, .comment, .commtext:style(font-size: 16px !important;)
